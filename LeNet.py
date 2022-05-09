@@ -29,3 +29,4 @@ class LeNet(nn.Module): # LeNet 5 ; input is of size [nb_samples, nb_channels, 3
         logits = self.fc2(x)
         probs = F.softmax(logits, dim = 1)
         return logits, probs
+        

@@ -1,0 +1,5 @@
+-plot la norme du gradient + Trace/N 
+-tester d'autre optimizer ( regarder si on veut implémenter à la main d'autre optimizers)
+-écrire du code pour comparer les optimizers
+-(get singular values - computationally heavy - gucci solution)
+-tester hessian 
