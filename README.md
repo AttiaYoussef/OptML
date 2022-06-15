@@ -1,4 +1,4 @@
-# Class project | [Insert title here]
+# Class project | Study of the curvature of the minimizers found by different optimizers and how it affects generalization
 
 This is our submission for the second project of "CS-439: Optimization for Machine Learning" where we conducted a study of the shape of the minima found by different optimizers, as well as how the curvature of the minima can affect generalization.
 
