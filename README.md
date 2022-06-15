@@ -19,9 +19,17 @@ All code, may it be scripts or notebooks, are in the 'src' folder.
 The model we used is the LeNet 5 architecture, a relatively simple convolutional neural network used for classification on 10 classes. It was implemented using the [Pytorch](https://pytorch.org/get-started/locally/) library, and the implementation can be found in the 'LeNet.py' file.
 
 ### Optimizers
-To compare different optimizers for this project, we used three standard first order methods (Stochastic Gradient Descent, AdaGrad and Adam), and also a second order method optimizer called [AdaHessian](https://arxiv.org/abs/2006.00719). This state of the art method approximates second order information for its optimization, mainly the Hessian matrix's diagonal elements.
+To compare different optimizers for this project, we used three standard first order methods (Stochastic Gradient Descent, AdaGrad and Adam), and also a second order method optimizer called [AdaHessian](https://github.com/amirgholami/adahessian). This state of the art method approximates second order information for its optimization, mainly the Hessian matrix's diagonal elements.
 
-### Pyhessian
+### PyHessian
 
+In order to visualize the loss landscape in interesting directions, we wanted to have a way to compute some of the eigenvectors of the Hessian matrix, without having to compute all of the eigenvalues. For this we used the [PyHessian](https://github.com/amirgholami/PyHessian) library, which lets us calculate additional second order information such as the trace and the Hessian's eigenvalues density for a given model.
 
 ### Running the code
+
+
+## References
+- Z. Yao, A. Gholami, K Keutzer, M. Mahoney. PyHessian: Neural Networks Through the Lens of the Hessian, Spotlight at ICML workshop on Beyond First-Order Optimization Methods in Machine Learning, 2020, [PDF](https://arxiv.org/pdf/1912.07145.pdf).
+- Z. Yao, A. Gholami, S. Shen, M. Mustafa, K Keutzer, M. Mahoney. AdaHessian: An Adaptive Second Order Optimizer for Machine
+Learning, 2021, [PDF](https://arxiv.org/pdf/2006.00719.pdf)
+
