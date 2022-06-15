@@ -28,6 +28,13 @@ In order to visualize the loss landscape in interesting directions, we wanted to
 ### Running the code
 
 
+## Authors 
+@AttiaYoussef
+
+@TorgemanTarak
+
+@hugolan
+
 ## References
 - Z. Yao, A. Gholami, K Keutzer, M. Mahoney. PyHessian: Neural Networks Through the Lens of the Hessian, Spotlight at ICML workshop on Beyond First-Order Optimization Methods in Machine Learning, 2020, [PDF](https://arxiv.org/pdf/1912.07145.pdf).
 - Z. Yao, A. Gholami, S. Shen, M. Mustafa, K Keutzer, M. Mahoney. AdaHessian: An Adaptive Second Order Optimizer for Machine
