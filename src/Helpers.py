@@ -28,7 +28,7 @@ def norm_gradient(model):
 ##### Density plot
 
 
-def get_esd_plot(eigenvalues, weights):
+def get_esd_plot(eigenvalues, weights, title):
     density, grids = density_generate(eigenvalues, weights)
     plt.semilogy(grids, density + 1.0e-7)
     plt.ylabel('Density (Log Scale)', fontsize=14, labelpad=10)
@@ -37,6 +37,7 @@ def get_esd_plot(eigenvalues, weights):
     plt.yticks(fontsize=12)
     plt.axis([np.min(eigenvalues) - 1, np.max(eigenvalues) + 1, None, None])
     plt.tight_layout()
+    plt.title(title)
     plt.show()
     #plt.savefig('example.pdf')
 

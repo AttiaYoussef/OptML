@@ -1,0 +1,5 @@
+matplotlib==3.1.1
+numpy==1.21.6
+torch==1.10.1
+torch_optimizer==0.3.0
+pyhessian==0.1
