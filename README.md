@@ -16,6 +16,7 @@ The type of problem we chose is a classification one, using the MNIST dataset of
 All code, may it be scripts or notebooks, are in the 'src' folder.
 
 In order to reproduce the results, run the `Project.ipynb` notebook. This file contains all necessary code to train and produce the main results seen in the report.
+Install the dependencies in the `requirements.txt` file before attempting to launch the code.
 ### Model
 The model we used is the LeNet 5 architecture, a relatively simple convolutional neural network used for classification on 10 classes. It was implemented using the [Pytorch](https://pytorch.org/get-started/locally/) library, and the implementation can be found in the 'LeNet.py' file.
 
