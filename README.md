@@ -6,7 +6,7 @@ This is our submission for the second project of "CS-439: Optimization for Machi
 During the project, we made use of the free [Google Colab](https://colab.research.google.com) which permitted us to make use of a GPU (an NVIDIA Tesla K80 GPU, to be exact) as to make our code go faster, and to have more memory. Without a powerful GPU, the code may take a long time to execute, as we often train multiple image classification models.
 
 ## Problem description
-In this project, we wanted to conduct a study on the kind of solutions first and second order methods of optimization, by looking at the landscape of the loss function around the found solution. That way, we would determine if it's a flat or sharp solution, and see how generalizable it is.
+In this project, we wanted to conduct a study on the kind of solutions found by first and second order methods of optimization, by looking at the landscape of the loss function around the found solution. That way, we would determine if it's a flat or sharp solution, and see how generalizable it is.
 
 Our main motivation for this project was the work of [Dinh & al.](https://arxiv.org/abs/1703.04933), which suggests that sharp minima can indeed generalize well, and shouldn't be specifically avoided. 
 
@@ -25,10 +25,6 @@ To compare different optimizers for this project, we used three standard first o
 ### PyHessian
 
 In order to visualize the loss landscape in interesting directions, we wanted to have a way to compute some of the eigenvectors of the Hessian matrix, without having to compute all of the eigenvalues. For this we used the [PyHessian](https://github.com/amirgholami/PyHessian) library, which lets us calculate additional second order information such as the trace and the Hessian's eigenvalues density for a given model.
-
-### Running the code
-
-
 ## Authors 
 @AttiaYoussef
 
