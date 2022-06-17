@@ -25,10 +25,6 @@ To compare different optimizers for this project, we used three standard first o
 ### PyHessian
 
 In order to visualize the loss landscape in interesting directions, we wanted to have a way to compute some of the eigenvectors of the Hessian matrix, without having to compute all of the eigenvalues. For this we used the [PyHessian](https://github.com/amirgholami/PyHessian) library, which lets us calculate additional second order information such as the trace and the Hessian's eigenvalues density for a given model.
-
-### Running the code
-
-
 ## Authors 
 @AttiaYoussef
 
